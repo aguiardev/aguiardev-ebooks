@@ -1,31 +1,28 @@
-<center>
-  <p align="center">
-    <!-- <img src="https://user-images.githubusercontent.com/20674439/158480674-3b8895e7-420e-4025-bd78-8058ba255476.png"  width="150" /> -->
-  </p>  
-  <h1 align="center">E-books Aguiar Dev ✌️</h1>
-  <p align="center"> Nesse repositório você encontra os projetos usados como base para cada e-book e também dos vídeos complementares no YouTube. Confira abaixo a lista completa. 🌐💻
-  </p>
-</center>
+# Apresentação
 
---- 
+Aqui você encontra os projetos usados como base nos e-books e alguns exemplos extras que vão te ajudar nos seus estudos. Abaixo os projetos estão organizados por e-book e [clique aqui](https://beacons.ai/aguiardev/e-books) pra conhecer todos os e-books disponíveis! 🙏
 
-<br />
+# E-books
 
-📺 Canal no [Youtube](https://www.youtube.com/@AguiarDev91).
+1. [C# para iniciantes: o guia prático](#c-para-iniciantes-o-guia-prático)
+2. [Guia Prático para Iniciantes Testes Unitários em C# e xUnit](#guia-prático-para-iniciantes-testes-unitários-em-c-e-xunit)
+3. [Injeção de Dependência em C#: Guia Passo a Passo para Desenvolvedores](#injeção-de-dependência-em-c-guia-passo-a-passo-para-desenvolvedores)
 
-## Disponíveis
+## C# para iniciantes: o guia prático
 
-1. [Injeção de Dependência em C#: Guia Passo a Passo para Desenvolvedores](#injeção-de-dependência-em-c-guia-passo-a-passo-para-desenvolvedores)
+| Projeto | Versão .NET | Descrição
+| --- | --- | --- |
+| CalculadoraDeNotas | .NET 8 | Projeto recebe 5 notas do usuários e cálcula a média além de de identificar qual a maior e menor nota informadas. |
+
+## Guia Prático para Iniciantes Testes Unitários em C# e xUnit
+
+| Projeto | Versão .NET | Descrição
+| --- | --- | --- |
+| Calculator | .NET 6 | São 2 projetos. O projeto `Calculator` é testado pelo projeto `Calculator.Tests`.  |
 
 ## Injeção de Dependência em C#: Guia Passo a Passo para Desenvolvedores
 
-Aprenda de uma vez por todas a importância da injeção de dependência, seus benefícios e como aplicar esse conceito em seus projetos da forma correta.
-
-**Projetos**
-
-- **API.SemInjecao** [.NET 5]: Exemplo de projeto do tipo API com forte acoplamento.
-- **API.ComInjecao**  [.NET 5]: Exemplo de projeto do tipo API, mas faz uso de injeção de dependência.
-- **Tests** [.NET 7]: Projeto que realiza testes unitários no projeto **API.ComInjecao**.
-- **API.Minimal** [.NET 7]: Igual ao projeto anterior, mas usa o template Minimal API.
-- **ConsoleApp** [.NET 7]: Projeto do tipo console com injeção de dependência.
-- **WorkerApp** [.NET 7]: Projeto do tipo worker (background service) com injeção de dependência.
+| Projeto | Versão .NET | Descrição
+| --- | --- | --- |
+| API.SemInjecao | .NET 5 | Projeto do tipo API sem injeção de dependência e forte acoplamento. |
+| API.ComInjecao | .NET 5 | Projeto do tipo API com injeção de dependência. |
